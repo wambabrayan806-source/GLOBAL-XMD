@@ -1,33 +1,28 @@
 {
-  "name": "global",
+  "name": "king-dylan-md",
   "version": "3.0.1",
-  "description": "WhatsApp Bot",
-  "main": "start.js",
+  "description": "WhatsApp Bot personnalisé par King Dylan",
+  "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node start.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
-    "debug": "DEBUG=* node start.js"
+    "debug": "DEBUG=* node index.js"
   },
   "keywords": [
     "whatsapp-bot",
-    "Termux-Bot",
+    "king-dylan-md",
     "baileys-md",
-    "whatsapp-web",
     "multi-device",
-    "Global-MD"
+    "cameroon-bot"
   ],
+  "author": "King Dylan",
   "contributors": [
     {
-      "name": "Qasim Ali",
+      "name": "King Dylan",
       "role": "Lead Developer"
-    },
-    {
-      "name": "GlobalTechInfo",
-      "role": "Maintainer"
     }
   ],
-  "author": "GlobalTechInfo",
   "license": "Apache-2.0",
   "directories": {
     "lib": "lib",
@@ -97,10 +92,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GlobalTechInfo/GLOBAL-XMD.git"
+    "url": "git+https://github.com/wambabrayan806-source/GLOBAL-XMD.git"
   },
   "bugs": {
-    "url": "https://github.com/GlobalTechInfo/GLOBAL-XMD/issues"
+    "url": "https://github.com/wambabrayan806-source/GLOBAL-XMD/issues"
   },
-  "homepage": "https://github.com/GlobalTechInfo/GLOBAL-XMD#readme"
+  "homepage": "https://github.com/wambabrayan806-source/GLOBAL-XMD#readme"
 }
