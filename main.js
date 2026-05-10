@@ -2,9 +2,10 @@ process.on('uncaughtException', console.error)
 process.on('unhandledRejection', console.error)
 
 /*
-	* Create By GlobalTechInfo
-	* Follow https://github.com/GlobalTechInfo
-	* Whatsapp : https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
+    * 👑 KING-DYLAN-MD 👑
+    * Créé et personnalisé par King Dylan
+    * Contact: +237674073940
+    * Version: 2.0 (King Edition)
 */
 
 require('./settings');
@@ -31,6 +32,7 @@ const similarity = require('similarity');
 const PDFDocument = require('pdfkit');
 const webp = require('node-webpmux');
 const ffmpeg = require('fluent-ffmpeg');
+
 const speed = require('performance-now');
 const didYouMean = require('didyoumean');
 const { performance } = require('perf_hooks');
