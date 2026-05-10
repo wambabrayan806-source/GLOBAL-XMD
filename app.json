@@ -1,48 +1,48 @@
 {
-  "name": "global",
-  "description": "WhatsApp Bot Using Baileys Library",
-  "repository": "https://github.com/GlobalTechInfo/GLOBAL-XMD",
+  "name": "KING-DYLAN-MD",
+  "description": "WhatsApp Bot personnalisé par King Dylan utilisant la librairie Baileys",
+  "repository": "https://github.com/wambabrayan806-source/GLOBAL-XMD",
   "stack": "container",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["whatsapp-bot", "multi-device", "bot", "whatsapp"],
+  "logo": "https://i.ibb.co/GQ7DnnQ9/global.jpg",
+  "keywords": ["whatsapp-bot", "king-dylan", "multi-device", "bot"],
   "env": {
     "OWNER_Number": {
-      "description": "one or two owner number split with qoma",
+      "description": "Ton numéro de téléphone (Propriétaire)",
       "required": true,
-      "value": ""
+      "value": "237674073940"
     },
     "BOT_NAME": {
-      "description": "Give your BOT a name",
+      "description": "Le nom de ton BOT",
       "required": false,
-      "value": "GLOBAL-XMD"
+      "value": "KING-DYLAN-MD"
     },
     "BOT_NUMBER": {
-      "description": "WhatsApp phone number for pairing code",
+      "description": "Numéro WhatsApp pour le code de jumelage",
       "required": true,
-      "value": "923001234567"
+      "value": "237674073940"
     },
     "TIME_ZONE": {
-      "description": "Your Time Zone For Example Africa/Nairobi",
+      "description": "Ton fuseau horaire (Cameroun)",
       "required": false,
-      "value": "UTC"
+      "value": "Africa/Douala"
     },
     "PREFIX": {
-      "description": "put any one or more symbols in it split with qomma",
+      "description": "Le symbole pour tes commandes (ex: .)",
       "required": true,
-      "value": ""
+      "value": "."
     },
      "HKEY": {
-      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": true,
+      "description": "Ta clé API Heroku (si tu utilises Heroku)",
+      "required": false,
       "value": ""
     },
      "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
-      "required": true,
+      "description": "Le nom de ton application Heroku",
+      "required": false,
       "value": ""
     }
-    },
-    "buildpacks": [
+  },
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
@@ -57,7 +57,7 @@
     }
   ],
   "formation": {
-    "web": {
+    "worker": {
       "quantity": 1,
       "size": "basic"
     }
